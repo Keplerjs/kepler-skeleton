@@ -6,7 +6,9 @@
 
 keplerjs:base
 
-keplerjs:theme
+#keplerjs:theme
+
+#keplerjs:plugin-skeleton
 
 #
 #references and plugins description:	http://docs.keplerjs.io/plugins.html
