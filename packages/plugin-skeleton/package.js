@@ -12,6 +12,10 @@ Package.onUse(function(api) {
     'keplerjs:core@'+version,
   ]);
 
+  api.imply([
+    'keplerjs:core@'+version
+  ]);
+
   api.versionsFrom("1.5.1");
 
   api.addFiles([
@@ -19,7 +23,12 @@ Package.onUse(function(api) {
   ]);
 
   api.addFiles([
-    'client/views/home.html'
+    'client/views/home.html',
+    'client/router.js'    
   ], 'client');
 
+  api.export([
+    'Kepler', 'K'
+  ]);
+  
 });
