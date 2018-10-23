@@ -1,11 +1,12 @@
 {
-  "name": "skeleton",
+  "name": "keplerjs-skeleton",
+  "version": "1.4.7",
   "private": true,
   "scripts": {
     "start": "meteor run"
   },
   "dependencies": {
-    "@babel/runtime": "^7.0.0-beta.55",
+    "@babel/runtime": "7.0.0-beta.55",
     "bcrypt": "^3.0.2",
     "meteor-node-stubs": "^0.4.1"
   }
