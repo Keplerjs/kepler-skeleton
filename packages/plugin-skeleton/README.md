@@ -1,3 +1,3 @@
-## keplerjs:plugin-skeleton
+## KeplerJs:plugin-skeleton
 
-keplerjs plugin skeleton
+KeplerJs plugin skeleton

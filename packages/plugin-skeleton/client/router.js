@@ -1,9 +1,11 @@
 
 Router.map(function() {
 
-	this.route('skeleton', {
-		path: '/',
-		template: 'pageHome_pluginSkeleton'
+	this.route('pagePluginSkeleton', {
+		path: '/skeleton',
+		template: 'pageHome_pluginSkeleton',
+		layoutTemplate: 'layoutPage',
+		loadingTemplate: 'pageLoading',
 	});
 
 });
