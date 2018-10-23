@@ -29,3 +29,24 @@ Here there is also a skeleton of Kepler plugin inside the *packages* directory, 
 ```
 meteor add keplerjs:plugin-skeleton
 ```
+
+Default **.meteor/packages** content, uncomment for enable more plugins
+```
+keplerjs:base
+keplerjs:theme
+keplerjs:plugin-skeleton
+#keplerjs:api
+#keplerjs:edit
+#keplerjs:admin
+#keplerjs:stats
+#keplerjs:upload
+#keplerjs:share
+#keplerjs:geoinfo
+#keplerjs:osm
+#keplerjs:favorites
+#keplerjs:convers
+#keplerjs:notifs
+#keplerjs:pois
+#keplerjs:tracks
+#keplerjs:categories
+```
