@@ -6,7 +6,7 @@
 
 keplerjs:base
 
-#keplerjs:theme
+keplerjs:theme
 
 keplerjs:plugin-skeleton
 
