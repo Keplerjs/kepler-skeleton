@@ -1,0 +1,90 @@
+{
+	"public": {
+		"map": {
+			"center": [41.047801, 12.0885],
+			"layers": {
+                "road": "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                "landscape": "https://{s}.tile.thunderforest.com/landscape/{z}/{x}/{y}.png?apikey=<YOUR API KEY>",
+                "transport": "https://{s}.tile.thunderforest.com/transport/{z}/{x}/{y}.png?apikey=<YOUR API KEY>"
+            }
+		},
+		"accounts": {
+	        "creation":true
+        },
+		"categories": {
+			"cats": {
+				"place": {
+					"car": true,
+					"house": true,
+					"bus": false,
+					"parking": false
+				}
+			}
+		},
+		"templates": {
+			"panelPlace": {
+				"panelPlace_edit": false,
+				"popupCursor_share": false,
+				"panelPlace_share": {"order": -10}
+			},
+			"popupCursor": {
+				"popupCursor_share":false
+			}
+		}
+	},
+	"upload": {
+		"targets": {
+			"avatars": {
+				"url": "/static/avatars/",
+				"path": "/var/www/static.app_meteor.net/avatars/"
+			}
+		}
+	},
+	"stats": {
+		"apiHeaders": {
+			 "Access-Control-Allow-Origin": "*"
+		}
+	},
+	"geoinfo": {
+		"geonamesUser": "<YOUR USER NAME>",
+		"ipinfodbKey": "<YOUR API KEY>"
+	},
+	"weather": {
+		"wundergroundKey": "<YOUR API KEY>"
+	},
+    "openrouteservice": {
+		"name": "<YOUR NAME>",
+		"key": "<YOUR API KEY>"
+	},
+	"accounts": {
+		"verifyEmail": false,
+		"emailTemplates": {
+			"from": "Admin <no-reply@example.com>"
+		},
+		"github": {
+			"service": "github",
+			"clientId": "<YOUR CLIENT ID>",
+			"secret": "<YOUR API KEY>"
+		},
+		"facebook": {
+			"service": "facebook",
+			"appId": "<YOUR APP ID>",
+			"secret": "<YOUR API KEY>"
+		},
+		"google": {
+			"service": "google",
+			"clientId": "<YOUR CLIENT ID>",
+			"secret": "<YOUR SECRET>"
+		},
+		"twitter": {
+			"service": "twitter",
+			"consumerKey": "<YOUR CONSUMER KEY>",
+			"secret": "<YOUR SECRET>"
+		},
+		"openstreetmap": {
+			"service": "openstreetmap",
+			"consumerKey": "<YOUR CONSUMER KEY>",
+			"secret": "<YOUR SECRET>"
+		}
+	}	
+}
