@@ -24,8 +24,8 @@ npm start
 
 The best way to add, extend or modify features in KeplerJs is to create a [Kepler plugin](http://docs.keplerjs.io/plugin-js.html).
 You can find in the documentation the guidelines for doing this.
-Here there is also a skeleton of Kepler plugin inside the *packages* directory, it can be enabled or disabled through the standard Meteor commands *meteor add* / *meteor remove*:
+Here there is also a skeleton of Kepler plugin inside the *packages* directory, it can be enabled or disabled through the standard Meteor commands *meteor add* or *meteor remove*:
 
 ```
-meteor add keplerjs: plugin-skeleton
+meteor add keplerjs:plugin-skeleton
 ```
