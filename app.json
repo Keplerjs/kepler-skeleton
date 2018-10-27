@@ -1,0 +1,20 @@
+{
+  "name": "KeplerJs Skeleton Project",
+  "description": "The open source full-stack geosocial network platform",
+  "repository": "https://github.com/Keplerjs/kepler-skeleton",
+  "logo": "https://raw.githubusercontent.com/Keplerjs/keplerjs.github.io/master/images/logo-white-300.png",
+  "keywords": ["meteor", "geosocial", "community", "keplerjs"],
+  "website": "http://keplerjs.io/",
+  "env": {
+    "BUILDPACK_URL": "https://github.com/Keplerjs/meteor-buildpack-horse.git",
+    "HEROKU_APP_NAME": {
+      "description": "Please re-enter your App Name",
+      "required": true
+    },
+    "DEPLOY_PLATFORM": "heroku"
+  },
+  "addons": [
+    "mongolab",
+    "logentries"
+  ]
+}
