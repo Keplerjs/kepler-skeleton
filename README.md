@@ -3,9 +3,7 @@
 This repo gives you all you need to quickly create your working project based on KeplerJs
 
 
-## Deploy a new instance on Heroku
-Host your own KeplerJs instance for **FREE** with [One-Click Deploy](https://heroku.com/deploy).
-
+## One-Click Deploy a new instance on Heroku
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/Keplerjs/kepler-skeleton/tree/master)
 
 
