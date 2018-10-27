@@ -3,12 +3,12 @@
 This repo gives you all you need to quickly create your working project based on KeplerJs
 
 
-## One-Click Deploy a new instance on Heroku
+### One-Click Deploy a new instance on Heroku
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/Keplerjs/kepler-skeleton/tree/master)
 
+### Deploy to your own server
 
-### Clone this repository
-
+Clone this repository
 ```
 git clone git@github.com:Keplerjs/kepler-skeleton.git
 cd kepler-skeleton
