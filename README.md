@@ -30,9 +30,18 @@ npm start
 The best way to add, extend or modify features in KeplerJs is to create a [Kepler plugin](http://docs.keplerjs.io/plugin-js.html).
 You can find in the documentation the guidelines for doing this.
 Here there is also a skeleton of Kepler plugin inside the *packages* directory, it can be enabled or disabled through the standard Meteor commands *meteor add* or *meteor remove*:
-
 ```
 meteor remove keplerjs:plugin-skeleton
+```
+
+A production instance is easily configurable as follow:
+```
+cp ./private/start.sh .
+cp ./private/settings.sample.json ./settings.json
+```
+edits your custom mongodb database name in *start.sh* and other [Kepler configurations](http://docs.keplerjs.io/configurations.html) in *settings.json* and run:
+```
+./start.sh
 ```
 
 Default **.meteor/packages** content, uncomment for enable more plugins
