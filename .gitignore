@@ -1,1 +1,5 @@
 node_modules/
+start.sh
+settings.json
+package-lock.json
+

@@ -32,7 +32,7 @@ You can find in the documentation the guidelines for doing this.
 Here there is also a skeleton of Kepler plugin inside the *packages* directory, it can be enabled or disabled through the standard Meteor commands *meteor add* or *meteor remove*:
 
 ```
-meteor add keplerjs:plugin-skeleton
+meteor remove keplerjs:plugin-skeleton
 ```
 
 Default **.meteor/packages** content, uncomment for enable more plugins
