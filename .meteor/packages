@@ -5,20 +5,16 @@
 # but you can also edit it by hand.
 
 keplerjs:base
-
 keplerjs:theme
-
 keplerjs:plugin-skeleton
 
 #
 #references and plugins description:	http://docs.keplerjs.io/plugins.html
 #
-
 #keplerjs:api
 #keplerjs:edit
 #keplerjs:admin
 #keplerjs:stats
-
 #keplerjs:upload
 #keplerjs:share
 #keplerjs:geoinfo
@@ -29,7 +25,6 @@ keplerjs:plugin-skeleton
 #keplerjs:pois
 #keplerjs:tracks
 #keplerjs:categories
-
 #keplerjs:openrouteservice
 #keplerjs:wunderground
 #keplerjs:googlemaps
