@@ -39,7 +39,7 @@ A production instance is easily configurable as follow:
 cp ./private/start.sh .
 cp ./private/settings.sample.json ./settings.json
 ```
-edits your custom mongodb database name in *start.sh* and other [Kepler configurations](http://docs.keplerjs.io/configurations.html) in *settings.json* and run:
+edits your custom mongodb database name *DBNAME="kepler_skeleton"* in the file *start.sh* and other [Kepler configurations](http://docs.keplerjs.io/configurations.html) in *settings.json*, run:
 ```
 ./start.sh
 ```
