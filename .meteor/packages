@@ -25,6 +25,8 @@ keplerjs:plugin-skeleton
 #keplerjs:pois
 #keplerjs:tracks
 #keplerjs:categories
+#
+##ADDITIONALS
 #keplerjs:openrouteservice
 #keplerjs:wunderground
 #keplerjs:googlemaps
